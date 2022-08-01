@@ -108,7 +108,7 @@ card5.addEventListener('click', function (e) {
 const height = document.querySelector('#hero-area').offsetHeight
 $(window).scroll(function(){
   if($(this).scrollTop()>height/2.35) {
-      $('#hero-area img').attr('src','/img/Edit/Logo_Black_1.png');
+      $('#hero-area img').attr('src','img/Edit/Logo_Black_1.png');
   }
   else {
       $('#hero-area img').attr('src','img/Edit/Logo White11.png');
