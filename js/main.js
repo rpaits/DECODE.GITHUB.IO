@@ -104,11 +104,11 @@ card5.addEventListener('click', function (e) {
   card5.classList.toggle('is-flipped');
 })
 
-
+/*
 const height = document.querySelector('#hero-area').offsetHeight
 $(window).scroll(function(){
   if($(this).scrollTop()>height/2.35) {
-      $('#hero-area img').attr('src','img/Edit/Logo_Black_1.png');
+      $('#hero-area img').attr('src','/img/Edit/Logo Black 1.png');
   }
   else {
       $('#hero-area img').attr('src','img/Edit/Logo White11.png');
@@ -118,6 +118,28 @@ $(window).scroll(function(){
 $(function () {
   $('#hero-area img').attr('src','img/Edit/Logo White11.png');
 });
+*/
+
+var cl = "";
+$(window).scroll(function(){
+  try {
+    var cl = (window.getComputedStyle(document.getElementsByClassName('top-nav-collapse')[0]).backgroundColor).toString();
+  console.log(cl);
+  $('#hero-area img').attr('src','img/Edit/Logo Black 1.png');
+  } catch (error) {
+    $('#hero-area img').attr('src','img/Edit/Logo White11.png');
+  }
+  
+})
+  
+ 
+
+
+
+
+
+
+
 
 /*
 
@@ -134,6 +156,10 @@ jQuery(document).ready(function($) {
     if (ww < 992) {
       $('.cnt').addClass('content-right');
       $('.cnt').removeClass('content-left');
+      if(ww>769){
+      
+        $('.collapse').attr('display','flex');
+      }
     } else if (ww >= 992) {
       $('.cnt').addClass('content-left');
       $('.cnt').removeClass('content-remove');
