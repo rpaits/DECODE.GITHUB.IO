@@ -483,9 +483,7 @@ button:focus {
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0.5px;
-  margin-left: 120px;
-  margin-right: 120px;
-  font-family: monospace;
+  font-family: 'montserrat_regular', sans-serif;;
   font-style: initial;
 }
 
@@ -653,6 +651,14 @@ text-transform: uppercase;
   height: 50px;
 }
 
+
+
+
+.mobile-menu .slicknav_nav{
+  text-transform: uppercase;
+
+}
+
 .slicknav_menu {
   display: none;
 }
@@ -670,7 +676,10 @@ text-transform: uppercase;
 
   .navbar-brand img {
     width: 110%;
-  }
+    padding: 0px;
+    object-fit: scale-down;
+}
+  
 
 
   #mobile-menu {
@@ -1377,7 +1386,7 @@ color: #0F172B;
   display: none;
 }
 
-#portfolio #crd .portfolio-item .card{
+#portfolio .crd .portfolio-item .card{
   margin: 30px auto;
   padding-left: 2px;
   height: 550px;
@@ -1389,7 +1398,7 @@ color: #0F172B;
 
 
 
-#portfolio #crd .portfolio-item .card__inner {
+#portfolio .crd .portfolio-item .card__inner {
   width: 100%;
   height: 100%;
   transition: transform 1s;
@@ -1403,11 +1412,11 @@ color: #0F172B;
 }
 
 
-#portfolio #crd .portfolio-item .card__inner.is-flipped {
+#portfolio .crd .portfolio-item .card__inner.is-flipped {
   transform: rotateY(180deg);
 }
 
-#portfolio #crd .portfolio-item .card__face {
+#portfolio .crd .portfolio-item .card__face {
 position: absolute;
 width: 100%;
 height: 100%;
@@ -1418,7 +1427,7 @@ border-radius: 16px;
 box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
 }
 
-#portfolio #crd .portfolio-item .card__face--front {
+#portfolio .crd .portfolio-item .card__face--front {
  background: #F1F8FF;
   display: flex;
   align-items: center;
@@ -1437,34 +1446,34 @@ box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
 
 
 
-#portfolio #crd .portfolio-item .card__face--back {
+#portfolio .crd .portfolio-item .card__face--back {
   background-image: linear-gradient(to bottom right, rgba(254,161,22,1) 100%, rgb(0, 0, 0) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#portfolio #crd .portfolio-item .card__face--front h2 {
+#portfolio .crd .portfolio-item .card__face--front h2 {
 color: #fff;
 font-size: 32px;
 }
 
-#portfolio #crd .portfolio-item .card__face--back {
+#portfolio .crd .portfolio-item .card__face--back {
   background-color: #fff;
   transform: rotateY(180deg);
 }
 
-#portfolio #crd .portfolio-item .card__content {
+#portfolio .crd .portfolio-item .card__content {
   width: 100%;
   height: 100%;
 }
 
-#portfolio #crd .portfolio-item .card__header {
+#portfolio .crd .portfolio-item .card__header {
   position: relative;
   padding: 30px 30px 40px;
 }
 
-#portfolio #crd .portfolio-item .card__header:after {
+#portfolio .crd .portfolio-item .card__header:after {
   content: '';
   display: block;
   position: absolute;
@@ -1479,7 +1488,7 @@ font-size: 32px;
 
 
 
-#portfolio #crd .portfolio-item .pp{
+#portfolio .crd .portfolio-item .pp{
   display: block;
   margin: 0 auto 30px;
   border-radius: 50%;
@@ -1487,36 +1496,38 @@ font-size: 32px;
   border: 5px solid #fff;
   object-fit: cover;
 }
-#portfolio #crd .portfolio-item .card__header h2{
+#portfolio .crd .portfolio-item .card__header h2{
   color: #fff;
   font-size: 32px;
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
 }
-#portfolio #crd .portfolio-item iframe{
+#portfolio .crd .portfolio-item iframe{
   height: 200px;
 }
 
-#portfolio #crd .portfolio-item .card__body {
+#portfolio .crd .portfolio-item .card__body {
   padding: 30px;
 
+  text-align: center;
 }
 
 
-#portfolio #crd .portfolio-item .card__body h3{
+#portfolio .crd .portfolio-item .card__body h3{
   color: #0F172B;
   font-size: 24px;
   font-weight: 800;
   margin-bottom: 15px;
+  text-align: center;
 }
 
-#portfolio #crd .portfolio-item .card__body p{
+#portfolio .crd .portfolio-item .card__body p{
   color: rgb(255, 249, 249);
   font-size: 18px;
   line-height: 1.5;
 }
-#portfolio #crd .portfolio-item .card__face--front p{
+#portfolio .crd .portfolio-item .card__face--front p{
   color: #000;
   padding-left: 10px;
   padding-right: 10px;
@@ -1525,7 +1536,7 @@ font-size: 32px;
   line-height: 1.5;
 }
 
-#portfolio #crd .portfolio-item .card__face--front .card__body .bld{
+#portfolio .crd .portfolio-item .card__face--front .card__body .bld{
   text-align: center;
   align-items: center;
   color: #FEA116;
@@ -1535,7 +1546,7 @@ font-size: 32px;
 
 }
 
-#portfolio #crd .portfolio-item .card__face--back p{
+#portfolio .crd .portfolio-item .card__face--back p{
   color: rgb(255, 249, 249);
   padding-left: 15px;
   padding-right: 15px;
@@ -1552,7 +1563,7 @@ font-size: 32px;
 
 
 
-#portfolio #crd .portfolio-item .card__face--front:hover:hover{
+#portfolio .crd .portfolio-item .card__face--front:hover:hover{
   background: #0F172B;
     color: #F1F8FF;
     transform: scale(1.05);
@@ -1560,18 +1571,18 @@ font-size: 32px;
   }
   
   
-  #portfolio #crd .portfolio-item .card__face--front:hover::before{
+  #portfolio .crd .portfolio-item .card__face--front:hover::before{
     background: rgb(85 108 214 / 10%);
   }
-  #portfolio #crd .portfolio-item .card__face--front:hover:hover  h3,
-  #portfolio #crd .portfolio-item .card__face--front:hover:hover  p {
+  #portfolio .crd .portfolio-item .card__face--front:hover:hover  h3,
+  #portfolio .crd .portfolio-item .card__face--front:hover:hover  p {
     color: #F1F8FF;
   font-weight: 800;
     align-items: center;
     text-align: center;
   }
   
-  #portfolio #crd .portfolio-item .card__face--front:hover:hover  p {
+  #portfolio .crd .portfolio-item .card__face--front:hover:hover  p {
     
     color: #F1F8FF;
     font-family: monospace;
@@ -1579,7 +1590,7 @@ font-size: 32px;
   }
   
   
-  #portfolio #crd .portfolio-item .card__face--front:hover:before {
+  #portfolio .crd .portfolio-item .card__face--front:hover:before {
     content: "";
     position: absolute;
     background: rgb(85 108 214 / 5%);
@@ -1592,29 +1603,17 @@ font-size: 32px;
     border-radius: 35px;
   }
   
-  #portfolio #crd .portfolio-item .card__face--front:hover h3 {
+  #portfolio .crd .portfolio-item .card__face--front:hover h3 {
     color: #212121;
     font-size: 1.3rem;
     margin-top: 13px;
     margin-bottom: 13px;
   }
   
-  #portfolio #crd .portfolio-item .card__face--front:hover p {
+  #portfolio .crd .portfolio-item .card__face--front:hover p {
     font-size: 15px;
     margin-bottom: 15px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
