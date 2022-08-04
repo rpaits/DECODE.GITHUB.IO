@@ -125,9 +125,9 @@ $(window).scroll(function(){
   try {
     var cl = (window.getComputedStyle(document.getElementsByClassName('top-nav-collapse')[0]).backgroundColor).toString();
   console.log(cl);
-  $('#hero-area img').attr('src','img/Edit/Logo Black 1.png');
+  $('#hero-area img').attr('src','img/Edit/B.svg');
   } catch (error) {
-    $('#hero-area img').attr('src','img/Edit/Logo White11.png');
+    $('#hero-area img').attr('src','img/Edit/W.svg');
   }
   
 })
