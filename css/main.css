@@ -974,6 +974,7 @@ color: #0F172B;
   #features1 .box-item .text p {
     font-size: 14px;
     line-height: 26px;
+ text-align: justify;
   }
   
   #features1 .box-item:hover {
