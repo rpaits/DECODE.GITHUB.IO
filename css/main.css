@@ -457,7 +457,7 @@ button:focus {
   height: 100%;
 }
 .particles-js-canvas-el {
-  height: 50vmax !important;
+  height: 100vh;
   z-index: 0;
   }
 
