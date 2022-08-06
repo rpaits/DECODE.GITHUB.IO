@@ -132,4 +132,4 @@ particlesJS('hero-area',
 
 );
 
-$('#hero-area').height($('#hero-area').width());
+
