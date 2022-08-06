@@ -3,7 +3,7 @@
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   #hero-area .contents h1 {
-    font-size: 28px;
+    font-size: 38px;
   }
   .item-boxes h4 {
     font-size: 18px;
@@ -41,8 +41,9 @@
     padding: 100px 0 80px;
   }
   #hero-area .contents h1 {
-    font-size: 18px;
+    font-size: 25px;
     line-height: 30px;
+    padding-top: 30px;
   }
   #features .show-box img {
     display: none;
