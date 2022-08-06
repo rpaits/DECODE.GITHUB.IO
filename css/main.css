@@ -467,6 +467,7 @@ button:focus {
 }
 
 #hero-area .contents {
+  position: absolute;
   padding: 200px 0 130px;
 }
 
