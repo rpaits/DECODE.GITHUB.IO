@@ -463,6 +463,7 @@ button:focus {
   color: #fff;
   overflow: hidden;
   position: relative;
+	min-height: 500px;
   
 }
 
@@ -473,6 +474,7 @@ button:focus {
   overflow: hidden;
   position: relative;
   background-size: cover;
+	min-height: 500px;
   }
 #hero-area .overlay {
   position: absolute;
