@@ -463,19 +463,43 @@ button:focus {
   color: #fff;
   overflow: hidden;
   position: relative;
-	min-height: 500px;
   
 }
 
-.particles-js-canvas-el {
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  overflow: hidden;
-  position: relative;
-  background-size: cover;
-	min-height: 500px;
+
+
+/* ---- particles.js container ---- */
+
+
+
+
+  canvas{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    height: 100%
   }
+  
+  
+  
+  
+  
+  .banner .row{
+    min-height: 500px;
+  }
+  
+  /* ---- particles.js container ---- */
+  
+  #particles-js{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  
 #hero-area .overlay {
   position: absolute;
   width: 100%;
@@ -488,7 +512,8 @@ button:focus {
 
 #hero-area .contents {
   position: absolute;
-  padding: 200px 0 130px;
+  padding: 150px 0 130px;
+ 
 }
 
 #hero-area .contents h1 {
@@ -497,6 +522,7 @@ button:focus {
   font-weight: 700;
   margin-bottom: 25px;
   text-transform: uppercase;
+  
 }
 
 #hero-area .contents p {
@@ -508,8 +534,7 @@ button:focus {
   letter-spacing: 0.5px;
   font-family: 'montserrat_regular', sans-serif;;
   font-style: initial;
-  padding-right: 15px;
-
+  padding-right: 10px;
 }
 
 #hero-area .contents .btn {
@@ -657,11 +682,20 @@ text-transform: uppercase;
   background: #FEA116;
 }
 
+
+
+
+
+
+
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
   #nav-main li a.nav-link {
     padding-top: 18px;
   }
+
+
+ 
 }
 
 .navbar-toggler {
@@ -669,6 +703,18 @@ text-transform: uppercase;
   height: 50px;
 }
 
+
+.navbar-expand-md {
+  padding-right: 4px;
+  padding-left: 4px;
+  display: flex!important;
+}
+
+.navbar-expand-md li{
+  font-size: 11px;
+  margin: 0px;
+  padding: 0px;
+}
 
 
 .mobile-menu {
@@ -688,13 +734,13 @@ text-transform: uppercase;
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px)  {
   .navbar-header {
     width: 100%;
   }
   .navbar-brand {
     position: absolute;
-    padding: 15px;
+    padding: 5px;
     top: 0;
   }
   
