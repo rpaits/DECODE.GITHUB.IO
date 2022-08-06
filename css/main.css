@@ -457,8 +457,12 @@ button:focus {
   height: 100%;
 }
 .particles-js-canvas-el {
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   z-index: 0;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
   }
 
 #hero-area .overlay {
