@@ -456,6 +456,10 @@ button:focus {
   position: relative;
   height: 100%;
 }
+.particles-js-canvas-el {
+  height: 100vmax !important;
+  z-index: 0;
+  }
 
 #hero-area .overlay {
   position: absolute;
