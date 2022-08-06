@@ -496,6 +496,7 @@ button:focus {
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 25px;
+  text-transform: uppercase;
 }
 
 #hero-area .contents p {
@@ -507,6 +508,8 @@ button:focus {
   letter-spacing: 0.5px;
   font-family: 'montserrat_regular', sans-serif;;
   font-style: initial;
+  padding-right: 15px;
+
 }
 
 #hero-area .contents .btn {
