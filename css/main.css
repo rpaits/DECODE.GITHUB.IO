@@ -454,6 +454,7 @@ button:focus {
   color: #fff;
   overflow: hidden;
   position: relative;
+  height: 100%;
 }
 
 #hero-area .overlay {
