@@ -1378,7 +1378,7 @@ opacity: 0.5;
       background-size: cover;
      }
       #pricing .row .card4:hover{    
-        background-image:  linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/Telecom.png');
+        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)),url('../img/industries/Telecom.png');
         opacity: 0.5;  
         }
     #pricing .row .card5{
