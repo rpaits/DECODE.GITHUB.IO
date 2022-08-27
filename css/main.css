@@ -973,58 +973,60 @@
    }
    /*==========================service cards===========================*/
 #services .row .card1{
- background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/rpacard2.jpg');
+ background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/rpacard2.jpg');
  background-position: center;
 background-size: cover;
+opacity: 0.5;
  }
  #services .row .card1:hover{    
- background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/rpacard2.jpg');
+ background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/rpacard2.jpg');
  opacity: 0.5;  
+
  }
 #services .row .card2{
-background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/Chatbot_card2.jpg');
+background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Chatbot_card2.jpg');
 background-position: center;
 background-size: cover;       
  }
 #services .row .card2:hover{      
-background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/Chatbot_card2.jpg');
+background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Chatbot_card2.jpg');
 opacity: 0.5;      
  }
 
 #services .row .card3{
-  background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/aiML.png');
+  background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/aiML.png');
   background-position: center;
   background-size: cover;  
   }
   #services .row .card3:hover{
-  background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/aiML.png');
+  background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/aiML.png');
   opacity: 0.5;   
   }      
   #services .row .card4{
-    background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/rpatesting.png');
+    background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/rpatesting.png');
     background-position: center;
     background-size: cover;  
     }
     #services .row .card4:hover{
-    background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/rpatesting.png');
+    background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/rpatesting.png');
     opacity: 0.5;   
     }  
     #services .row .card5{
-      background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/custom-software.png');
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/custom-software.png');
       background-position: center;
       background-size: cover;  
       }
 #services .row .card5:hover{
- background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/custom-software.png');
+ background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/custom-software.png');
  opacity: 0.5;   
   }  
 #services .row .card6{
- background-image: linear-gradient(136deg,rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/Robot-Auditor-.jpg');
+ background-image: linear-gradient(136deg,rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Robot-Auditor-.jpg');
  background-position: center;
  background-size: cover;  
  }
 #services .row .card6:hover{
- background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/Robot-Auditor-.jpg');
+ background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Robot-Auditor-.jpg');
  opacity: 0.5;   
     }   
         /*==========================service cards ends===========================*/
@@ -1344,57 +1346,57 @@ opacity: 0.5;
      }
     /*==========================industries cards===========================*/
     #pricing .row .card1{
-      background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/financialIndustry.jpg');
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/financialIndustry.jpg');
       background-position: center;
       background-size: cover;
       }
       #pricing .row .card1:hover{    
-      background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/financialIndustry.jpg');
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/financialIndustry.jpg');
       opacity: 0.5;  
       }
     #pricing .row .card2{
-      background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/HealthCare.jpg');
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/HealthCare.jpg');
       background-position: center;
       background-size: cover;
       }
       #pricing .row .card2:hover{    
-       background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/HealthCare.jpg');
+       background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/HealthCare.jpg');
       opacity: 0.5;  
         }
     #pricing .row .card3{
-      background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/insurance2.jpg');
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/insurance2.jpg');
       background-position: center;
       background-size: cover;
       }
       #pricing .row .card3:hover{    
-        background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/insurance2.jpg');
+        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/insurance2.jpg');
         opacity: 0.5;  
       }
     #pricing .row .card4{
-      background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/Telecom.jpg');
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/Telecom.jpg');
       background-position: center;
       background-size: cover;
      }
       #pricing .row .card4:hover{    
-        background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/Telecom.jpg');
+        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/Telecom.jpg');
         opacity: 0.5;  
         }
     #pricing .row .card5{
-      background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/BPO.jpg');
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/BPO.jpg');
       background-position: center;
       background-size: cover;
       }
       #pricing .row .card5:hover{    
-        background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/BPO.jpg');
+        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/BPO.jpg');
         opacity: 0.5;  
       }
     #pricing .row .card6{
-      background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/SCM.jpg');
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/SCM.jpg');
       background-position: center;
       background-size: cover;
       }
       #pricing .row .card6:hover{    
-        background-image: linear-gradient(136deg, rgba(6, 2, 27, 0.8), rgba(27, 37, 82, 0.973)), url('../img/SCM.jpg');
+        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/SCM.jpg');
         opacity: 0.5;  
       }     
     /*==========================industries cards ends===========================*/
