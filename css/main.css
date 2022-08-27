@@ -71,7 +71,7 @@
      font-family: 'Poppins', sans-serif;
      font-size: 40px;
      font-weight: 700;
-     letter-spacing: 0px;
+     letter-spacing: .8px;
    }
    
    ul {
@@ -293,11 +293,11 @@
    
    .social-icons ul li .svg-inline--fa {
      color: #0F172B;
-     width: 40px;
+     width: 26px;
      height: 40px;
      overflow: hidden;
      border-radius: 0%;
-     padding-top: 5PX;
+     padding-top: 0PX;
    }
    
    
@@ -307,8 +307,8 @@
      margin-bottom: 15px;
      border-radius: 50%;
      line-height: 40px;
-     width: 50px;
-     height: 50px;
+     width: 40px;
+     height: 40px;
      text-align: center;
      background: #ddd;
      font-size: 16px;
@@ -638,8 +638,8 @@
    }
    
    #hero-area .contents {
-     position: absolute;
      padding: 150px 0 130px;
+     align-items: center;
     
    }
    
@@ -973,23 +973,23 @@
    }
    /*==========================service cards===========================*/
 #services .row .card1{
- background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/rpacard2.jpg');
+ background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/rpacard2.png');
  background-position: center;
 background-size: cover;
 opacity: 0.5;
  }
  #services .row .card1:hover{    
- background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/rpacard2.jpg');
+ background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/rpacard2.png');
  opacity: 0.5;  
 
  }
 #services .row .card2{
-background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Chatbot_card2.jpg');
+background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Chatbot_card2.png');
 background-position: center;
 background-size: cover;       
  }
 #services .row .card2:hover{      
-background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Chatbot_card2.jpg');
+background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Chatbot_card2.png');
 opacity: 0.5;      
  }
 
@@ -1021,12 +1021,12 @@ opacity: 0.5;
  opacity: 0.5;   
   }  
 #services .row .card6{
- background-image: linear-gradient(136deg,rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Robot-Auditor-.jpg');
+ background-image: linear-gradient(136deg,rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Robot-Auditor-.png');
  background-position: center;
  background-size: cover;  
  }
 #services .row .card6:hover{
- background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Robot-Auditor-.jpg');
+ background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Robot-Auditor-.png');
  opacity: 0.5;   
     }   
         /*==========================service cards ends===========================*/
@@ -1346,30 +1346,30 @@ opacity: 0.5;
      }
     /*==========================industries cards===========================*/
     #pricing .row .card1{
-      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/financialIndustry.jpg');
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/financialIndustry.png');
       background-position: center;
       background-size: cover;
       }
       #pricing .row .card1:hover{    
-      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/financialIndustry.jpg');
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/financialIndustry.png');
       opacity: 0.5;  
       }
     #pricing .row .card2{
-      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/HealthCare.jpg');
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/HealthCare.png');
       background-position: center;
       background-size: cover;
       }
       #pricing .row .card2:hover{    
-       background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/HealthCare.jpg');
+       background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/HealthCare.png');
       opacity: 0.5;  
         }
     #pricing .row .card3{
-      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/insurance2.jpg');
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/insurance2.png');
       background-position: center;
       background-size: cover;
       }
       #pricing .row .card3:hover{    
-        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/insurance2.jpg');
+        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/insurance2.png');
         opacity: 0.5;  
       }
     #pricing .row .card4{
@@ -1382,21 +1382,21 @@ opacity: 0.5;
         opacity: 0.5;  
         }
     #pricing .row .card5{
-      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/BPO.jpg');
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/BPO.png');
       background-position: center;
       background-size: cover;
       }
       #pricing .row .card5:hover{    
-        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/BPO.jpg');
+        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/BPO.png');
         opacity: 0.5;  
       }
     #pricing .row .card6{
-      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/SCM.jpg');
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/SCM.png');
       background-position: center;
       background-size: cover;
       }
       #pricing .row .card6:hover{    
-        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/SCM.jpg');
+        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/SCM.png');
         opacity: 0.5;  
       }     
     /*==========================industries cards ends===========================*/
@@ -1493,6 +1493,7 @@ opacity: 0.5;
      }
      #pricing .table .description p {
       color: #FFF;
+      -webkit-font-smoothing: antialiased
      }
      
      #pricing .table .description li {
@@ -1774,9 +1775,10 @@ opacity: 0.5;
    #portfolio .crd .portfolio-item .card{
      margin: 30px auto;
      padding-left: 2px;
-     height: 530px;
+     height: 580px;
      perspective: 1000px;
      border:none;
+     
      
    }
    
@@ -1790,7 +1792,6 @@ opacity: 0.5;
      transform-style: preserve-3d;
      cursor: pointer;
      position: relative;
-     
    
    
    
@@ -1813,6 +1814,7 @@ opacity: 0.5;
    }
    
    #portfolio .crd .portfolio-item .card__face--front {
+    
     background: #F1F8FF;
      display: flex;
      align-items: center;
@@ -1829,6 +1831,9 @@ opacity: 0.5;
      
    }
    
+   
+
+
    
    
    #portfolio .crd .portfolio-item .card__face--back {
@@ -2558,8 +2563,20 @@ opacity: 0.5;
    
    #contact {
      background: #0F172B;
-     color : #FFF;
+     color: #F1F8FF;
      position: relative;
+     font-family: sans-serif;
+     letter-spacing: 1.15px;
+   }
+   #contact b{
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,cursive, sans-serif;
+    letter-spacing: 1.25px;
+   color: #F1F8FF;
+   }
+
+   #contact .contact-details {
+    text-decoration: none;
+    color: #FEA116;
    }
    
    .form-control {
@@ -2576,6 +2593,8 @@ opacity: 0.5;
      transition: all 0.3s;
      background-color: #0F172B;
    }
+
+
    
    
    .form-control:focus {
