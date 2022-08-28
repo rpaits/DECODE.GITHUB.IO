@@ -476,7 +476,23 @@
      bottom: 0.3vh;
      left: 15px;
    }
+
+   .chat-icon img{
+    width: 100px;
+    height: 90px;
+    left: 15px;
+    display: none;
+    position: absolute;
+    padding: 10px;
+   }
    
+   @media (min-width: 767px) {
+   .chat-icon:hover > img{
+     
+      display: block;
+    
+   }
+  }
    
    
    
@@ -974,61 +990,85 @@
    /*==========================service cards===========================*/
 #services .row .card1{
  background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/rpacard2.png');
- background-position: center;
+
 background-size: cover;
 opacity: 0.5;
  }
- #services .row .card1:hover{    
- background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/rpacard2.png');
- opacity: 0.5;  
 
- }
 #services .row .card2{
 background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Chatbot_card2.png');
-background-position: center;
+
 background-size: cover;       
  }
-#services .row .card2:hover{      
-background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Chatbot_card2.png');
-opacity: 0.5;      
- }
+
 
 #services .row .card3{
   background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/aiML.png');
-  background-position: center;
+ 
   background-size: cover;  
   }
-  #services .row .card3:hover{
-  background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/aiML.png');
-  opacity: 0.5;   
-  }      
+   
   #services .row .card4{
     background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/rpatesting.png');
-    background-position: center;
+ 
     background-size: cover;  
     }
-    #services .row .card4:hover{
-    background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/rpatesting.png');
-    opacity: 0.5;   
-    }  
-    #services .row .card5{
+  
+ #services .row .card5{
       background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/custom-software.png');
-      background-position: center;
+   
       background-size: cover;  
       }
-#services .row .card5:hover{
- background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/custom-software.png');
- opacity: 0.5;   
-  }  
+
 #services .row .card6{
  background-image: linear-gradient(136deg,rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Robot-Auditor-.png');
- background-position: center;
+
  background-size: cover;  
  }
+
+ @media (min-width: 767px) {
+
+
 #services .row .card6:hover{
  background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Robot-Auditor-.png');
  opacity: 0.5;   
-    }   
+    } 
+
+ #services .row .card4:hover{
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/rpatesting.png');
+      opacity: 0.5;   
+      }
+ #services .row .card5:hover{
+      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/custom-software.png');
+      opacity: 0.5;   
+       }  
+
+ #services .row .card3:hover{
+        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/aiML.png');
+        opacity: 0.5;   
+        }   
+#services .row .card2:hover{      
+          background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/Chatbot_card2.png');
+          opacity: 0.5;      
+           }
+
+#services .row .card1:hover{    
+            background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/services/rpacard2.png');
+            opacity: 0.5;  
+           
+            }
+ #services .item-boxes .services-content h3 a:hover {
+              color: #FEA116;
+            }
+
+ #services .item-boxes:hover .icon .svg-inline--fa{
+              color: #F1F8FF;
+            
+            }
+#services .item-boxes:hover {
+              box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+            }
+          }
         /*==========================service cards ends===========================*/
    
    .svg-inline--fa{
@@ -1070,13 +1110,9 @@ opacity: 0.5;
      color: #585b60;
    }
    
-   #services .item-boxes .services-content h3 a:hover {
-     color: #FEA116;
-   }
+  
    
-   #services .item-boxes:hover {
-     box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
-   }
+  
    
    #services .item-boxes:hover .icon {
      background: #0F172B;
@@ -1085,11 +1121,7 @@ opacity: 0.5;
    }
    
    
-   #services .item-boxes:hover .icon .svg-inline--fa{
-     color: #FEA116;
-   
-   }
-   
+  
    
    #services .item-boxes:hover .icon i {
      color: #F1F8FF;
@@ -1347,58 +1379,71 @@ opacity: 0.5;
     /*==========================industries cards===========================*/
     #pricing .row .card1{
       background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/financialIndustry.png');
-      background-position: center;
-      background-size: cover;
+     
       }
-      #pricing .row .card1:hover{    
-      background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/financialIndustry.png');
-      opacity: 0.5;  
-      }
+     
     #pricing .row .card2{
       background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/HealthCare.png');
-      background-position: center;
-      background-size: cover;
+   
       }
-      #pricing .row .card2:hover{    
-       background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/HealthCare.png');
-      opacity: 0.5;  
-        }
+    
     #pricing .row .card3{
       background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/insurance2.png');
-      background-position: center;
-      background-size: cover;
+
       }
-      #pricing .row .card3:hover{    
-        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/insurance2.png');
-        opacity: 0.5;  
-      }
+     
     #pricing .row .card4{
       background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/Telecom.png');
-      background-position: center;
-      background-size: cover;
+
      }
-      #pricing .row .card4:hover{    
-        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)),url('../img/industries/Telecom.png');
-        opacity: 0.5;  
-        }
+      
     #pricing .row .card5{
       background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/BPO.png');
-      background-position: center;
-      background-size: cover;
+  
       }
-      #pricing .row .card5:hover{    
-        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/BPO.png');
-        opacity: 0.5;  
-      }
+     
     #pricing .row .card6{
       background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/SCM.png');
-      background-position: center;
-      background-size: cover;
+     
+      
       }
-      #pricing .row .card6:hover{    
-        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/SCM.png');
-        opacity: 0.5;  
-      }     
+
+
+@media (min-width: 767px) {    
+      
+      #pricing .row .card2:hover{    
+        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/HealthCare.png');
+       opacity: 0.5;  
+       box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.5);
+         }
+      #pricing .row .card3:hover{    
+        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/insurance2.png');
+        opacity: 0.5;
+        box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.5);  
+      }
+
+      #pricing .row .card4:hover{    
+        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)),url('../img/industries/Telecom.png');
+        opacity: 0.5; 
+        box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.5); 
+        }
+      #pricing .row .card1:hover{    
+        background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/financialIndustry.png');
+        opacity: 0.5; 
+        box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.5); 
+        }
+        #pricing .row .card5:hover{    
+          background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/BPO.png');
+          opacity: 0.5;  
+          box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.5);
+        }
+        #pricing .row .card6:hover{    
+          background-image: linear-gradient(136deg, rgba(15, 23, 43, .6), rgb(36, 52, 90)), url('../img/industries/SCM.png');
+          opacity: 0.5;  
+          box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.5);
+        } 
+        
+      }
     /*==========================industries cards ends===========================*/
      #pricing .m .odd{
        border-top-right-radius: 15%;
@@ -1509,7 +1554,6 @@ opacity: 0.5;
     
      
      #pricing .table:hover {
-       background: #ffffff;
        box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
      }
      
@@ -1812,17 +1856,17 @@ opacity: 0.5;
    border-radius: 16px;
    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
    }
+ 
    
    #portfolio .crd .portfolio-item .card__face--front {
     
-    background: #F1F8FF;
-     display: flex;
+    border-width: 13px;
+       display: flex;
      align-items: center;
      justify-content: center;
      flex: 0 50%;
      box-shadow: 0 2px 4px 0 rgba(136, 144, 195, 0.2),
        0 5px 15px 0 rgba(37, 44, 97, 0.15);
-    
      transition: 0.7s;
    
      
@@ -1838,6 +1882,7 @@ opacity: 0.5;
    
    #portfolio .crd .portfolio-item .card__face--back {
      background-image: linear-gradient(to bottom right, rgb(22, 14, 2) 100%, rgb(0, 0, 0) 100%);
+     
      display: flex;
      align-items: center;
      justify-content: center;
@@ -1972,6 +2017,7 @@ opacity: 0.5;
    
    #portfolio .crd .portfolio-item .card__face--front:hover:hover{
      background: #0F172B;
+     opacity: 0.9;
        color: #F1F8FF;
        box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
        transition-delay: 0.05s;
@@ -2567,6 +2613,8 @@ opacity: 0.5;
      position: relative;
      font-family: sans-serif;
      letter-spacing: 1.15px;
+     
+     
    }
    #contact b{
     font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,cursive, sans-serif;
