@@ -962,6 +962,8 @@
    #services .item-boxes p{
      color: #e8ebee;
      text-align: justify;
+     hyphens: auto;
+     word-spacing: 2px;
    }
    
    #services h4{
@@ -1534,6 +1536,8 @@ background-size: cover;
        padding: 0px 0px;
        margin-bottom: 10px;
        word-wrap: none;
+       hyphens: auto;
+       word-spacing: 2px;
        
      }
      #pricing .table .description p {
